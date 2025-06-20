@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TemplateActivity">
+
+    <GridLayout
+        android:id="@+id/gridTemplates"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:rowCount="5"
+        android:alignmentMode="alignMargins"
+        android:columnOrderPreserved="false">
+
+        <ImageView
+            android:id="@+id/image1"
+            style="@style/EstiloTemplate"
+            android:src="@drawable/meme1"
+            />
+
+        <ImageView
+            android:id="@+id/image2"
+            style="@style/EstiloTemplate"
+            android:src="@drawable/meme2"/>
+
+        <ImageView
+            android:id="@+id/image3"
+            style="@style/EstiloTemplate"
+            android:src="@drawable/meme3"/>
+
+        <ImageView
+            android:id="@+id/image4"
+            style="@style/EstiloTemplate"
+            android:src="@drawable/meme4"/>
+
+        <ImageView
+            android:id="@+id/image5"
+            style="@style/EstiloTemplate"
+            android:src="@drawable/meme5"/>
+
+        <ImageView
+            android:id="@+id/image6"
+            style="@style/EstiloTemplate"
+            android:src="@drawable/meme6"/>
+
+        <ImageView
+            android:id="@+id/image7"
+            style="@style/EstiloTemplate"
+            android:src="@drawable/meme7"/>
+
+        <ImageView
+            android:id="@+id/image8"
+            style="@style/EstiloTemplate"
+            android:src="@drawable/meme8"/>
+
+        <ImageView
+            android:id="@+id/image9"
+            style="@style/EstiloTemplate"
+            android:src="@drawable/meme9"/>
+
+        <ImageView
+            android:id="@+id/image10"
+            style="@style/EstiloTemplate"
+            android:src="@drawable/meme10"/>
+
+    </GridLayout>
+</ScrollView>
